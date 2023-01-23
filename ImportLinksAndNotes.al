@@ -68,9 +68,8 @@ pageextension 50101 ZYItemListExt extends "Item List"
         MaxRowNo := 0;
         LineNo := 0;
         TempExcelBuffer.Reset();
-        if TempExcelBuffer.FindLast() then begin
+        if TempExcelBuffer.FindLast() then
             MaxRowNo := TempExcelBuffer."Row No.";
-        end;
         LastLinkID := 0;
         GetLastLinkID();
         for RowNo := 2 to MaxRowNo do begin
@@ -105,9 +104,8 @@ pageextension 50101 ZYItemListExt extends "Item List"
         MaxRowNo := 0;
         LineNo := 0;
         TempExcelBuffer.Reset();
-        if TempExcelBuffer.FindLast() then begin
+        if TempExcelBuffer.FindLast() then
             MaxRowNo := TempExcelBuffer."Row No.";
-        end;
         LastLinkID := 0;
         GetLastLinkID();
         for RowNo := 2 to MaxRowNo do begin
